@@ -7,10 +7,8 @@ print("==" * bar)
 print("Print Acronym of Given String\n")
 
 def mainFn(stng):
-   
     # add first letter
     output = stng[0]
-     
     # iterate over string
     for i in range(1, len(stng)):
         if stng[i-1] == ' ':
@@ -35,14 +33,7 @@ if number_of_string.isnumeric() == True:
 
     for y in range(len(strings)):
         print(colored(strings[y] + mainFn(":  "+strings[y]+ " "),"red","on_white"))
-        
-
 else:
     print(colored("Enter any positive integer","white","on_red"))
 
-print("\n")
-print("==" * bar)
-
-
- 
- 
+print("\n==========================================")
